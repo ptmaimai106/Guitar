@@ -1,0 +1,52 @@
+platform :ios do
+   # iOS Lanes
+   desc 'Fetch certificates and provisioning profiles'
+  lane :certificates do
+    match(app_identifier: 'com.dsv.guitarproficiency', type: 'development', readonly: true)
+    match(app_identifier: 'com.dsv.guitarproficiency', type: 'appstore', readonly: true)
+  end
+
+  desc 'Build the iOS application.'
+  private_lane :build do
+    certificates
+    increment_build_number(xcodeproj: './ios/GUITAR_PROFICIENCY.xcodeproj')
+    gym(
+      project: './ios/GUITAR_PROFICIENCY.xcodeproj',
+      scheme: 'GUITAR_PROFICIENCY'
+    )
+  end
+
+  desc 'Ship to Testflight.'
+  lane :beta do
+    build
+    pilot
+  end
+end
+
+platform :android do
+  # Android Lanes
+  desc "Build the Android app"
+  private_lane :build do
+    version_code=1
+    version="0.0.1"
+    gradle(task: 'clean', project_dir: 'android/')
+    gradle(
+        task: 'assemble',
+        build_type: 'Release',
+        project_dir: 'android/',
+        flags: '--stacktrace --refresh-dependencies',
+        properties: {
+            "versionCode" => version_code,
+            "versionName" => version
+        }
+    )
+  end
+  desc "Ship production version"
+  lane :production do
+    build
+    supply(
+      package_name: 'com.dsv.guitarproficiency',
+      track: 'production'
+    )
+  end
+end

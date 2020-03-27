@@ -1,0 +1,110 @@
+{
+  "Level1": [
+    {
+      "label": "Maj7",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "Min7",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "Dom7",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "Min7b5",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "Dom7sus4",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "7#5",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "Dim7",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "Maj6",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "Min6",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "Min9",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "9",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "7b9",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "7#9",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "13",
+      "displayText": "One form for each"
+    }
+  ],
+  "Level2": [
+    {
+      "label": "Min(Maj7)",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "Maj7#5",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "Maj7b5",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "Min7#5",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "7b5",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "Dim(Maj7)",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "Maj(9/7)",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "Maj(9/6)",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "min9(maj7)",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "7(b9/b13)",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "13(b9)",
+      "displayText": "One form for each"
+    },
+    {
+      "label": "9(b13)",
+      "displayText": "One form for each"
+    }
+  ]
+}

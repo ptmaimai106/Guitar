@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/launch_screen" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/logo"
+        android:layout_marginTop="250dp"
+        android:id="@+id/logo"/>
+    <TextView
+        android:layout_below="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="GUITAR"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:id="@+id/guitar"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:layout_below="@+id/guitar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="PROFICIENCY TEST"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+</RelativeLayout>

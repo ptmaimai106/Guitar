@@ -1,0 +1,58 @@
+{
+  "Level1": [
+    {
+      "label": "Maj7",
+      "displayText": "One octave from root (min tempo: 8th notes at 60bpm)"
+    },
+    {
+      "label": "Min7",
+      "displayText": "One octave from root (min tempo: 8th notes at 60bpm)"
+    },
+    {
+      "label": "Dom7",
+      "displayText": "One octave from root (min tempo: 8th notes at 60bpm)"
+    },
+    {
+      "label": "Min7b5",
+      "displayText": "One octave from root (min tempo: 8th notes at 60bpm)"
+    },
+    {
+      "label": "Dom7sus4",
+      "displayText": "One octave from root (min tempo: 8th notes at 60bpm)"
+    },
+    {
+      "label": "7#5",
+      "displayText": "One octave from root (min tempo: 8th notes at 60bpm)"
+    },
+    {
+      "label": "Dim7",
+      "displayText": "One octave from root (min tempo: 8th notes at 60bpm)"
+    }
+  ],
+  "Level2": [
+    {
+      "label": "Min(Maj7)",
+      "displayText": "One octave from root (min tempo: 8th notes at 60bpm)"
+    },
+    {
+      "label": "Maj7#5",
+      "displayText": "One octave from root (min tempo: 8th notes at 60bpm)"
+    },
+    {
+      "label": "Maj7b5",
+      "displayText": "One octave from root (min tempo: 8th notes at 60bpm)"
+    },
+    {
+      "label": "Min7#5",
+      "displayText": "One octave from root (min tempo: 8th notes at 60bpm)"
+    },
+    {
+      "label": "7b5",
+      "displayText": "One octave from root (min tempo: 8th notes at 60bpm)"
+    },
+    {
+      "label": "Dim(Maj7)",
+      "displayText": "One octave from root (min tempo: 8th notes at 60bpm)"
+    }
+  ]
+}

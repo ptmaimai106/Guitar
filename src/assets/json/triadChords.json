@@ -1,0 +1,38 @@
+{
+  "Level1": [
+    {
+      "label": "Maj",
+      "displayText": "Close voicing; starting from root position; across fingerboard; one octave"
+    },
+    {
+      "label": "Min",
+      "displayText": "Close voicing; starting from root position; across fingerboard; one octave"
+    },
+    {
+      "label": "Aug",
+      "displayText": "Close voicing; starting from root position; across fingerboard; one octave"
+    },
+    {
+      "label": "Dim",
+      "displayText": "Close voicing; starting from root position; across fingerboard; one octave"
+    }
+  ],
+  "Level2": [
+    {
+      "label": "Maj",
+      "displayText": "Close voicing; starting from any inversion; one octave up and down all string sets: 321, 432, 543, 654"
+    },
+    {
+      "label": "Min",
+      "displayText": "Close voicing; starting from any inversion; one octave up and down all string sets: 321, 432, 543, 654"
+    },
+    {
+      "label": "Aug",
+      "displayText": "Close voicing; starting from any inversion; one octave up and down all string sets: 321, 432, 543, 654"
+    },
+    {
+      "label": "Dim",
+      "displayText": "Close voicing; starting from any inversion; one octave up and down all string sets: 321, 432, 543, 654"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "Level1": [
+    {
+      "label": "Ionian",
+      "displayText": "Two octaves from any degree or mode (min tempo: 16th notes at 60bpm)"
+    },
+    {
+      "label": "Dorian",
+      "displayText": "Two octaves from any degree or mode (min tempo: 16th notes at 60bpm)"
+    },
+    {
+      "label": "Phrygian",
+      "displayText": "Two octaves from any degree or mode (min tempo: 16th notes at 60bpm)"
+    },
+    {
+      "label": "Lydian",
+      "displayText": "Two octaves from any degree or mode (min tempo: 16th notes at 60bpm)"
+    },
+    {
+      "label": "Mixolydian",
+      "displayText": "Two octaves from any degree or mode (min tempo: 16th notes at 60bpm)"
+    },
+    {
+      "label": "Aeolian",
+      "displayText": "Two octaves from any degree or mode (min tempo: 16th notes at 60bpm)"
+    },
+    {
+      "label": "Locrian",
+      "displayText": "Two octaves from any degree or mode (min tempo: 16th notes at 60bpm)"
+    },
+    {
+      "label": "Chromatic",
+      "displayText": "Two octaves from tonic (min tempo: 16th notes at 60bpm)"
+    }
+  ],
+  "Level2": [
+    {
+      "label": "Melodic Minor",
+      "displayText": "Two octaves from any degree or mode (min tempo: 16th notes at 60bpm)"
+    },
+    {
+      "label": "Whole-tone",
+      "displayText": "Two octaves from tonic (min tempo: 16th notes at 60bpm)"
+    }
+  ]
+}

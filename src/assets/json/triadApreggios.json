@@ -1,0 +1,38 @@
+{
+  "Level1": [
+    {
+      "label": "Maj",
+      "displayText": "One octave from root (min tempo: 8th notes at 60bpm)"
+    },
+    {
+      "label": "Min",
+      "displayText": "One octave from root (min tempo: 8th notes at 60bpm)"
+    },
+    {
+      "label": "Aug",
+      "displayText": "One octave from root (min tempo: 8th notes at 60bpm)"
+    },
+    {
+      "label": "Dim",
+      "displayText": "One octave from root (min tempo: 8th notes at 60bpm)"
+    }
+  ],
+  "Level2": [
+    {
+      "label": "Maj",
+      "displayText": "Two octaves from root (min tempo: 8th notes at 60bpm)"
+    },
+    {
+      "label": "Min",
+      "displayText": "Two octaves from root (min tempo: 8th notes at 60bpm)"
+    },
+    {
+      "label": "Aug",
+      "displayText": "Two octaves from root (min tempo: 8th notes at 60bpm)"
+    },
+    {
+      "label": "Dim",
+      "displayText": "Two octaves from root (min tempo: 8th notes at 60bpm)"
+    }
+  ]
+}

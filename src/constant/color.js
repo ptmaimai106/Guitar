@@ -1,0 +1,13 @@
+export const RED = '#C22700';
+export const BRIGHT_RED = '#F12A28';
+export const RUST_RED = 'rgb(194, 39, 0)';
+export const GREEN = '#1CDE93';
+export const YELLOW = '#F8B310';
+export const BLUE = '#4A90E2';
+export const WHITE = '#FFFFFF';
+export const GREY = '#535353';
+export const SILVER = '#D6D6D6';
+export const BLACK = '#0E0E0E';
+export const DARK_BLUE = '#09090A';
+export const DARK_GRAY = '#6e6e6e';
+export const LIGHT_WHITE = 'rgb(214, 214, 214)';
